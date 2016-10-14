@@ -1,45 +1,16 @@
-<a href="super-tiny-compiler.js"><img width="731" alt="THE SUPER TINY COMPILER" src="https://cloud.githubusercontent.com/assets/952783/14171276/ed7bf716-f6e6-11e5-96df-80a031c2769d.png"/></a>
-
 ***Welcome to The Super Tiny Compiler!***
 
-This is an ultra-simplified example of all the major pieces of a modern compiler
-written in easy to read JavaScript.
+This is a Ruby version of [The Super Tiny Compiler](https://github.com/thejameskyle/the-super-tiny-compiler) originally developed in JavaScript by [@thejameskyle](https://github.com/thejameskyle)
 
-Reading through the guided code will help you learn about how *most* compilers
-work from end to end.
+As of the current version (October 2016) this is a straight port of the JS code. The result is some non-idiomatic Ruby code. I might revise it to be more Rubyish, but for now it is what it is.
 
-### [Want to jump into the code? Click here](super-tiny-compiler.js)
+### Why?
 
----
-
-### Why should I care?
-
-That's fair, most people don't really have to think about compilers in their day
-jobs. However, compilers are all around you, tons of the tools you use are based
-on concepts borrowed from compilers.
-
-### But compilers are scary!
-
-Yes, they are. But that's our fault (the people who write compilers), we've
-taken something that is reasonably straightforward and made it so scary that
-most think of it as this totally unapproachable thing that only the nerdiest of
-the nerds are able to understand.
-
-### Okay so where do I begin?
-
-Awesome! Head on over to the [super-tiny-compiler.js](super-tiny-compiler.js)
-file.
-
-### I'm back, that didn't make sense
-
-Ouch, I'm really sorry. I'm planning on doing a lot more work on this to add
-inline annotations. If you want to come back when that's done, you can either
-watch/star this repo or follow me on
-[twitter](https://twitter.com/thejameskyle) for updates.
+I like Ruby, and I wanted to learn more about compilers and abstract syntax trees. I figured porting the code to Ruby would be a fun learning experience. I don't imagine this will have any practical use. :)
 
 ### Tests
 
-Run with `node test.js`
+Run with `rspec`
 
 ---
 
